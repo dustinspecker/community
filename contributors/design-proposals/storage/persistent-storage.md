@@ -61,7 +61,7 @@ storage types.
 | Action | HTTP Verb | Path | Description |
 | ---- | ---- | ---- | ---- |
 | CREATE | POST | /api/{version}/persistentvolumes/ | Create instance of PersistentVolume |
-| GET | GET | /api/{version}persistentvolumes/{name} | Get instance of PersistentVolume with {name} |
+| GET | GET | /api/{version}/persistentvolumes/{name} | Get instance of PersistentVolume with {name} |
 | UPDATE | PUT | /api/{version}/persistentvolumes/{name} | Update instance of PersistentVolume with {name} |
 | DELETE | DELETE | /api/{version}/persistentvolumes/{name} | Delete instance of PersistentVolume with {name} |
 | LIST | GET | /api/{version}/persistentvolumes | List instances of PersistentVolume |
